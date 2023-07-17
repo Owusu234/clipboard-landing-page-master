@@ -1,0 +1,168 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+.attribution {
+     font-size: 11px;
+     text-align: center; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+body{
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.container{
+    text-align: center;
+    width: 1000px;
+    margin-top: 50px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    
+}
+
+.a{
+    margin: 45px;
+}
+
+.a img{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+
+.a h1{
+    color:hsl(210, 10%, 33%);
+    margin-bottom: 20px;
+}
+
+p{
+    color:hsl(201, 11%, 66%) ;
+    font-size: 16px;
+    text-align:center;
+    margin-bottom: 40px;
+}
+
+.ios{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(171, 66%, 44%);
+    padding: 12px;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.mac{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(233, 100%, 69%);
+    padding: 12px;
+    border-radius: 25px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.b{
+    margin: 45px;
+}
+
+h2{
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 20px;
+}
+
+.bflex{
+    display: flex;
+}
+
+.bflex img{
+    height: 50%;
+    width: 50%;
+}
+
+.bflex p{
+    text-align: left;
+}
+
+.main{
+    text-align: justify;
+    margin-left: 10%;
+}
+
+h3{
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 20px;
+}
+
+.c img{
+    height: 50%;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.dflex{
+    display: flex;
+}
+
+.index{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image{
+    height: 10%;
+    width: 10%;
+    margin: 50px;
+}
+    
+.conclude{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+    background-color: hsla(201, 11%, 66%,0.2);
+    padding: 30px;
+}
+
+.logo{
+    height: 10%;
+    width: 10%;
+}
+
+.style{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: hsl(210, 10%, 33%);
+}
+
+.f{
+    display: flex;
+    flex-direction: column;
+}
+
+.h{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+.img{
+    margin: 15px;
+}
+
+@media (max-width: 370px){
+    body{
+        font-size: small;
+    }
+}
